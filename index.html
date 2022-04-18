@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+   <script src="js/decodString.js"></script>
+
+    <title>Codificador e Decodificador</title>
+  </head>
+  <body>
+        <div class="container mt-2" align="center">
+             <div class="row">
+              <img class="logo"src="img/header.png">
+              <h1>Codificação e Decodificação</h1>
+            </div> 
+             <div  class="row"> 
+                  <!--Lado left-->           
+                    <div  id="colorLeft" class="col-sm ">                      
+                            
+
+                            <div id="confInputLeft">                      
+
+                                  <label for="story">Digite ou Cole o Texto a ser Criptografado:</label>
+
+                                  <textarea id="insert-textarea" name="mensagem" rows="20" cols="33"></textarea>
+                           </div>
+                             
+                             
+                                  <div> <button onclick="criptografar()" class="btnConfig" > Codificar </button></div>
+                                  <div> <button onclick="descriptografar()" class="btnConfig" > Decodificar </button></div>
+                            
+
+                    </div>
+                    <!--fim Col left-->
+                    <!--Col Right-->
+                    <div class="col-sm">
+                      <div id="confInputLeft"> 
+
+                          <label for="">Texto criptografado</label>
+                          
+                           <textarea id="resposta-textarea" name="resposta" rows="20" cols="33" value=""></textarea>
+                          
+                          <button onclick="CopiaTexto()" class="btnConfig"><span >Copiar</span></button>
+                           
+                      </div>
+
+                    </div>
+                   <!--Fim Col Right-->
+                
+              </div >
+          
+         
+          
+         </div>
+
+         <div id="confFooter" class="mt-1">
+              <footer>Desenvolvido por FabioAraujo - 2022</footer>
+         </div>
+    
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/decodString.js"></script>
+   s
+  </body>
+</html> 
+
+
+<!--onclick="copyText()"
+
